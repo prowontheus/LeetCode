@@ -1,4 +1,4 @@
-/*17. 电话号码的字母组合（中等）
+/*17. 电话号码的字母组合（中等）：未完成
     给定一个仅包含数字 2-9 的字符串，返回所有它能表示的字母组合。
     给出数字到字母的映射如下（与电话按键相同）。注意 1 不对应任何字母。
 定义：
@@ -19,11 +19,14 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include <map>
+#include <unordered_map>
 
 using std::vector;
 using std::string;
-using std::map;
+using std::unordered_map;
+
+
+//提示：使用深度优先搜索DFS或者广度优先搜索BFS
 
 class Solution {
 public:
@@ -38,69 +41,39 @@ public:
             if(r < 50 || r > 57)
                 return ret;
         }
-        for(auto a:digits)
+        unordered_map<char,string> un_map = {
+                {'0'," "},{'1',""},{'2',"abc"},
+                {'3',"def"},{'4',"ghi"},{'5',"jkl"},
+                {'6',"mno"},{'7',"pqrs"},{'8',"tuv"},
+                {'9',"wxyz"}};
+        generate(digits,ret,un_map);
+        return ret;
+    }
+    void generate(string &str,vector<string> &vec,unordered_map<char,string> &unmap)
+    {
+        if(str.length() <= 0)
         {
-            switch (a)
+            vec.push_back("");
+            return ;
+        }
+        char ch = str[0];
+        str.erase(0,1);
+        vector<string> tmp;
+        generate(str,tmp,unmap);
+        for(auto a:unmap[ch])
+        {
+            for(auto b:tmp)
             {
-                case '2':
-                    ret.push_back("abc");
-                    break;
-                case '3':
-                    ret.push_back("def");
-                    break;
-                case '4':
-                    ret.push_back("ghi");
-                    break;
-                case '5':
-                    ret.push_back("jkl");
-                    break;
-                case '6':
-                    ret.push_back("mno");
-                    break;
-                case '7':
-                    ret.push_back("pqrs");
-                    break;
-                case '8':
-                    ret.push_back("tuv");
-                    break;
-                case '9':
-                    ret.push_back("wxyz");
-                    break;
+                vec.push_back(a+b);
             }
         }
-        return generate(ret,0,ret.size()-1);
-//        map<int,vector<char>> map_tmp;
-//        map_tmp.insert(std::pair<int,vector<char>>(2,{'a','b','c'}));
-//        map_tmp.insert(std::pair<int,vector<char>>(3,{'d','e','f'}));
-//        map_tmp.insert(std::pair<int,vector<char>>(4,{'g','h','i'}));
-//        map_tmp.insert(std::pair<int,vector<char>>(5,{'j','k','l'}));
-//        map_tmp.insert(std::pair<int,vector<char>>(6,{'m','n','o'}));
-//        map_tmp.insert(std::pair<int,vector<char>>(7,{'p','q','r','s'}));
-//        map_tmp.insert(std::pair<int,vector<char>>(8,{'t','u','v'}));
-//        map_tmp.insert(std::pair<int,vector<char>>(9,{'w','x','y','z'}));
-//        return ret;
-    }
-    vector<string> generate(vector<string> &vec,int low,int high)
-    {
-        vector<string> ret;
-        int len = vec.size();
-        if(low < 0 || high < 0 || low >= len || high >= len || low > high)
-            return ret;
-        for (auto a:vec)
-        {
-            if (a.length() == 3)
-            {}
-            else if (a.length() == 4)
-            {}
-        }
-        return ret;
     }
 };
 
 int main()
 {
     Solution sol;
-    string str1("2345");
+    string str1("23455678");
     clock_t ti = clock();
     auto ret1 = sol.letterCombinations(str1);
     std::cout << "可能的组合有：" << ret1.size() << "种。" << std::endl;

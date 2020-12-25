@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/jerry/Projects/CLion Projects/LeetCode/0021_MergeTwoSortedLists.cpp" "/Users/jerry/Projects/CLion Projects/LeetCode/cmake-build-debug/CMakeFiles/LeetCode.dir/0021_MergeTwoSortedLists.cpp.o"
+  "/Users/jerry/Projects/CLion Projects/LeetCode/0022_GenerateParentheses.cpp" "/Users/jerry/Projects/CLion Projects/LeetCode/cmake-build-debug/CMakeFiles/LeetCode.dir/0022_GenerateParentheses.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

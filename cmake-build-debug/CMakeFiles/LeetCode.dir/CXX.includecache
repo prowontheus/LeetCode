@@ -6,7 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/Users/jerry/Projects/CLion Projects/LeetCode/0021_MergeTwoSortedLists.cpp
+/Users/jerry/Projects/CLion Projects/LeetCode/0000def.h
 iostream
 -
+vector
+-
+string
+-
+
+/Users/jerry/Projects/CLion Projects/LeetCode/0022_GenerateParentheses.cpp
+iostream
+-
+vector
+-
+string
+-
+0000def.h
+/Users/jerry/Projects/CLion Projects/LeetCode/0000def.h
 

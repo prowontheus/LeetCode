@@ -77,27 +77,27 @@ include CMakeFiles/LeetCode.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LeetCode.dir/flags.make
 
-CMakeFiles/LeetCode.dir/0021_MergeTwoSortedLists.cpp.o: CMakeFiles/LeetCode.dir/flags.make
-CMakeFiles/LeetCode.dir/0021_MergeTwoSortedLists.cpp.o: ../0021_MergeTwoSortedLists.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/jerry/Projects/CLion Projects/LeetCode/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LeetCode.dir/0021_MergeTwoSortedLists.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeetCode.dir/0021_MergeTwoSortedLists.cpp.o -c "/Users/jerry/Projects/CLion Projects/LeetCode/0021_MergeTwoSortedLists.cpp"
+CMakeFiles/LeetCode.dir/0022_GenerateParentheses.cpp.o: CMakeFiles/LeetCode.dir/flags.make
+CMakeFiles/LeetCode.dir/0022_GenerateParentheses.cpp.o: ../0022_GenerateParentheses.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/jerry/Projects/CLion Projects/LeetCode/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LeetCode.dir/0022_GenerateParentheses.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeetCode.dir/0022_GenerateParentheses.cpp.o -c "/Users/jerry/Projects/CLion Projects/LeetCode/0022_GenerateParentheses.cpp"
 
-CMakeFiles/LeetCode.dir/0021_MergeTwoSortedLists.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCode.dir/0021_MergeTwoSortedLists.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/jerry/Projects/CLion Projects/LeetCode/0021_MergeTwoSortedLists.cpp" > CMakeFiles/LeetCode.dir/0021_MergeTwoSortedLists.cpp.i
+CMakeFiles/LeetCode.dir/0022_GenerateParentheses.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCode.dir/0022_GenerateParentheses.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/jerry/Projects/CLion Projects/LeetCode/0022_GenerateParentheses.cpp" > CMakeFiles/LeetCode.dir/0022_GenerateParentheses.cpp.i
 
-CMakeFiles/LeetCode.dir/0021_MergeTwoSortedLists.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCode.dir/0021_MergeTwoSortedLists.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/jerry/Projects/CLion Projects/LeetCode/0021_MergeTwoSortedLists.cpp" -o CMakeFiles/LeetCode.dir/0021_MergeTwoSortedLists.cpp.s
+CMakeFiles/LeetCode.dir/0022_GenerateParentheses.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCode.dir/0022_GenerateParentheses.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/jerry/Projects/CLion Projects/LeetCode/0022_GenerateParentheses.cpp" -o CMakeFiles/LeetCode.dir/0022_GenerateParentheses.cpp.s
 
 # Object files for target LeetCode
 LeetCode_OBJECTS = \
-"CMakeFiles/LeetCode.dir/0021_MergeTwoSortedLists.cpp.o"
+"CMakeFiles/LeetCode.dir/0022_GenerateParentheses.cpp.o"
 
 # External object files for target LeetCode
 LeetCode_EXTERNAL_OBJECTS =
 
-LeetCode: CMakeFiles/LeetCode.dir/0021_MergeTwoSortedLists.cpp.o
+LeetCode: CMakeFiles/LeetCode.dir/0022_GenerateParentheses.cpp.o
 LeetCode: CMakeFiles/LeetCode.dir/build.make
 LeetCode: CMakeFiles/LeetCode.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/jerry/Projects/CLion Projects/LeetCode/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LeetCode"

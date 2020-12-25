@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LeetCode.dir/0021_MergeTwoSortedLists.cpp.o"
+  "CMakeFiles/LeetCode.dir/0022_GenerateParentheses.cpp.o"
   "LeetCode"
   "LeetCode.pdb"
 )

@@ -143,32 +143,32 @@ LeetCode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/build
 .PHONY : LeetCode/fast
 
-0021_MergeTwoSortedLists.o: 0021_MergeTwoSortedLists.cpp.o
+0022_GenerateParentheses.o: 0022_GenerateParentheses.cpp.o
 
-.PHONY : 0021_MergeTwoSortedLists.o
+.PHONY : 0022_GenerateParentheses.o
 
 # target to build an object file
-0021_MergeTwoSortedLists.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/0021_MergeTwoSortedLists.cpp.o
-.PHONY : 0021_MergeTwoSortedLists.cpp.o
+0022_GenerateParentheses.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/0022_GenerateParentheses.cpp.o
+.PHONY : 0022_GenerateParentheses.cpp.o
 
-0021_MergeTwoSortedLists.i: 0021_MergeTwoSortedLists.cpp.i
+0022_GenerateParentheses.i: 0022_GenerateParentheses.cpp.i
 
-.PHONY : 0021_MergeTwoSortedLists.i
+.PHONY : 0022_GenerateParentheses.i
 
 # target to preprocess a source file
-0021_MergeTwoSortedLists.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/0021_MergeTwoSortedLists.cpp.i
-.PHONY : 0021_MergeTwoSortedLists.cpp.i
+0022_GenerateParentheses.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/0022_GenerateParentheses.cpp.i
+.PHONY : 0022_GenerateParentheses.cpp.i
 
-0021_MergeTwoSortedLists.s: 0021_MergeTwoSortedLists.cpp.s
+0022_GenerateParentheses.s: 0022_GenerateParentheses.cpp.s
 
-.PHONY : 0021_MergeTwoSortedLists.s
+.PHONY : 0022_GenerateParentheses.s
 
 # target to generate assembly for a file
-0021_MergeTwoSortedLists.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/0021_MergeTwoSortedLists.cpp.s
-.PHONY : 0021_MergeTwoSortedLists.cpp.s
+0022_GenerateParentheses.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/0022_GenerateParentheses.cpp.s
+.PHONY : 0022_GenerateParentheses.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LeetCode"
-	@echo "... 0021_MergeTwoSortedLists.o"
-	@echo "... 0021_MergeTwoSortedLists.i"
-	@echo "... 0021_MergeTwoSortedLists.s"
+	@echo "... 0022_GenerateParentheses.o"
+	@echo "... 0022_GenerateParentheses.i"
+	@echo "... 0022_GenerateParentheses.s"
 .PHONY : help
 
 
